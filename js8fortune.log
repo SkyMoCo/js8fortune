@@ -1,0 +1,26 @@
+2023-09-09 13:32:18,587 Started
+2023-09-09 13:32:18,588 JS8 Fortune Server 0.01.0
+2023-09-09 13:32:18,588 info: Connecting to JS8Call at 127.0.0.1:2442
+2023-09-09 13:32:18,588 info: Connected to JS8Call
+2023-09-09 13:32:18,588 send: {"type": "STATION.GET_GRID", "value": "", "params": {"_ID": "1694291538588"}}
+2023-09-09 13:32:18,588 call: STATION.GET_GRID
+2023-09-09 13:32:18,589 recv: b'{"params":{"_ID":1694291538588},"type":"STATION.GRID","value":"DN15AN"}\n'
+2023-09-09 13:32:18,589 resp: DN15AN
+2023-09-09 13:32:18,589 send: {"type": "STATION.GET_CALLSIGN", "value": "", "params": {"_ID": "1694291538589"}}
+2023-09-09 13:32:18,589 call: STATION.GET_CALLSIGN
+2023-09-09 13:32:18,589 recv: b'{"params":{"_ID":1694291538589},"type":"STATION.CALLSIGN","value":"KK7CXF"}\n'
+2023-09-09 13:32:18,589 resp: KK7CXF
+2023-09-09 13:32:18,589 Finished
+2023-09-09 13:33:27,227 Started
+2023-09-09 13:33:27,227 JS8 Fortune Server 0.01.0
+2023-09-09 13:33:27,227 info: Connecting to JS8Call at 127.0.0.1:2442
+2023-09-09 13:33:27,227 info: Connected to JS8Call
+2023-09-09 13:33:27,227 send: {"type": "STATION.GET_GRID", "value": "", "params": {"_ID": "1694291607227"}}
+2023-09-09 13:33:27,227 call: STATION.GET_GRID
+2023-09-09 13:33:27,228 recv: b'{"params":{"_ID":1694291607227},"type":"STATION.GRID","value":"DN15AN"}\n'
+2023-09-09 13:33:27,228 resp: DN15AN
+2023-09-09 13:33:27,228 send: {"type": "STATION.GET_CALLSIGN", "value": "", "params": {"_ID": "1694291607228"}}
+2023-09-09 13:33:27,228 call: STATION.GET_CALLSIGN
+2023-09-09 13:33:27,228 recv: b'{"params":{"_ID":1694291607228},"type":"STATION.CALLSIGN","value":"KK7CXF"}\n'
+2023-09-09 13:33:27,228 resp: KK7CXF
+2023-09-09 13:33:27,228 Finished
