@@ -49,6 +49,12 @@ class Js8CallApi:
         self.my_frequency = frequency
         logging.info("Station Frequency is: " + str(frequency))
 
+    def set_my_announcement(self, announcement: str):
+        if self.my_frequency > 140000000
+           band = "20m"
+        self.my_announcement = "Send msg to on " + band + " @FORTUNE for random fortune"
+
+
     def listen(self):
         # the following block of code provides a socket recv with a 10 second timeout
         # we need this so that we call the @MB announcement code periodically
