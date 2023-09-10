@@ -10,7 +10,7 @@ def main():
     logging.info('Started')
     logging.info('JS8 Fortune Server ' + __version__)
     s = FortuneServer()     # Setup Fortune Server using settings from settings.py
-    FortuneServer.run_server()
+    s.run_server()
 
     logging.info('Finished')
 

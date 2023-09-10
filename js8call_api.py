@@ -17,6 +17,9 @@ class Js8CallApi:
     def __init__(self):
         self.sock = socket(AF_INET, SOCK_STREAM)
 
+    def isconnected(self, connected=None):
+        return self.connected
+
     def connect(self):
         logging.info( 'info: Connecting to JS8Call at ' + ':'.join(map(str, server)))
         try:
